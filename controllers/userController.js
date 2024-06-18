@@ -29,6 +29,7 @@ exports.crearUsuario = async (req, res) => {
     } 
 }
 
+//es el login
 exports.obtenerUsuario = async (req, res) => {
     const { email, password } = req.body
     console.log(email, password)
